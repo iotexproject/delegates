@@ -1,0 +1,32 @@
+{
+  "name": "delegates",
+  "version": "1.0.0",
+  "description": "mdxs for delegates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync:dele": "node ./jobs/sync-delegates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotexproject/delegates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iotexproject/delegates/issues"
+  },
+  "homepage": "https://github.com/iotexproject/delegates#readme",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "co": "^4.6.0",
+    "front-matter": "^4.0.2",
+    "glob": "^7.2.0",
+    "js-yaml": "^4.1.0",
+    "postgres": "^1.0.2",
+    "yaml": "^1.10.2"
+  },
+  "dependencies": {
+    "@instana/collector": "^1.137.0"
+  }
+}
